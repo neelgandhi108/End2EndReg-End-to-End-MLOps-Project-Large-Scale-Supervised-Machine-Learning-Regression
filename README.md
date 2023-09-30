@@ -61,5 +61,72 @@ Additionally, an animation is included to illustrate the pickup-drop heatmap's e
   </tr>
 </table>
 
+Experiment tracking, using tools like MLflow, is crucial for reproducibility, organization, and model optimization in machine learning. MLflow helps organize experiments into runs, allowing you to track parameters, metrics, metadata, artifacts, and even models. The MLflow UI provides an intuitive interface to manage and analyze your experiments and runs.
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (3).png"></td>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (4).png"></td>
+  </tr>
+</table>
+
+In the project, I installed MLflow, configured a backend for the MLflow model registry, added tracking to a Jupyter Notebook, and visualized the logged information in the MLflow UI. Additionally, I logged parameters, metrics, and tags for each experiment run in MLflow.
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (5).png"></td>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (9).png"></td>
+  </tr>
+</table>
+
+AWS Setup
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (11).png"></td>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (12).png"></td>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (13).png"></td>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (14).png"></td>
+  </tr>
+</table>
+
+In the project, I demonstrated how to perform hyperparameter tuning for an XGBoost model using Hyperopt, logged the results into MLflow, and explored the optimization results in the MLflow UI. Additionally, I discussed model selection criteria and introduced the "auto log" functionality in MLflow to easily log training runs with minimal code.
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (10).png"></td>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (1).png"></td>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (2).png"></td>
+  </tr>
+</table>
+
+In the project, I demonstrated model management using MLflow. I showed how to save machine learning models as artifacts, log preprocessing steps, and provided code examples on how to load and make predictions with the saved models. Additionally, I discussed the benefits of organizing models in the MLflow Model Registry for better model versioning and management.
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (6).png"></td>
+  </tr>
+</table>
+
+In the project related to model management, I implemented a Model Registry using MLflow. This registry helps streamline the process of managing machine learning models, including registering models, transitioning them between different stages (e.g., staging, production), annotating models, and version control. Use the MLflow client class to interact with the Model Registry and make informed decisions about promoting models to production based on their performance on test data.
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (7).png"></td>
+  </tr>
+</table>
+
+
+Running MLflow with multiple data scientists working on various ML models and utilizing the Model Registry.
+Showcased the setup of a remote tracking server on AWS EC2, configuring AWS credentials, and connecting to the server.
+Trained a machine learning model, logged metrics, and artifacts, and registered models using MLflow.
+Demonstrated how to access and use the MLflow UI to visualize experiments, models, and metrics.
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/neelgandhi108/End2EndReg-End-to-End-MLOps-Project-Large-Scale-Supervised-Machine-Learning-Regression/blob/main/Assets/ExperimentTrackingandManagement (8).png"></td>
+  </tr>
+</table>
+
 
 
